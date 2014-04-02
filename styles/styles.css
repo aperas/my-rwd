@@ -19,7 +19,7 @@ body{background-color: lightblue}
 nav{background-color: gray; padding: 0em 0em; margin: 0em 0em}
 nav ul{padding: 10px 3px; list-style-type: none}
 
-footer {clear: both;}
+footer {clear: both;} 
 
 /* ----- Left-Sided Nav Menu -----*/
 -moz- nav {float:left; width: 175px; box-sizing: border-box;}
