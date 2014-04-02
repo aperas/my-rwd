@@ -1,0 +1,21 @@
+/**
+* ======================================================================
+* Styles.css -- Global Styles for MyRWD Website
+* ======================================================================
+*
+* Created April 2, 2014
+*
+* Authored by Alex Peras
+*
+*/
+/* ----- Basic Styling ----- */
+
+body{background-color: lightblue}
+
+#page-wrapper {background-color: white; margin: auto; width: 768px}
+
+#content{background-color: #f7f2da; padding: 1em 1em 0em 0em; margin-bottom: 10px;}
+
+nav{background-color: gray; padding: 0em 0em; margin: 0em 0em}
+nav ul{padding: 10px 3px; list-style-type: none}
+
