@@ -12,7 +12,7 @@
 
 body{background-color: lightblue}
 
-#page-wrapper {background-color: white; margin: auto; width: 768px}
+#page-wrapper {background-color: white; margin: auto; max-width: 960px;}
 
 #content{background-color: #f7f2da; padding: 0em 1em 0em; margin-bottom: 10px; }
 
@@ -21,10 +21,22 @@ nav ul{padding: 10px 3px; list-style-type: none}
 
 footer {clear: both;} 
 
-/* ----- Left-Sided Nav Menu -----*/
+/* ----- Ad Styling -----*/
+
+#page-wrapper {width: 960px;}
+
+.wide-skyscraper-ad{ float: left;
+  width: 160px; height: 600px; background-color: silver;
+}
+
+-moz- #sidebar {float: left; width: 160px; box-sizing: border-box}
+#sidebar {float: left; width: 160px; box-sizing: border-box}
+
+
+/* ----- Three Column Fixed Layout  -----*/
 -moz- nav {float:left; width: 175px; box-sizing: border-box;}
 nav{float:left; width: 175px; box-sizing: border-box;}
 
 -moz- #content {float: left; width: 593px; box-sizing: border-box;}
-#content {float: left; width: 593px; box-sizing: border-box;}
+#content {float: left; width: 625px; box-sizing: border-box;}
 
