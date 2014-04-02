@@ -14,8 +14,17 @@ body{background-color: lightblue}
 
 #page-wrapper {background-color: white; margin: auto; width: 768px}
 
-#content{background-color: #f7f2da; padding: 0em 1em 0em; margin-bottom: 10px;}
+#content{background-color: #f7f2da; padding: 0em 1em 0em; margin-bottom: 10px; }
 
 nav{background-color: gray; padding: 0em 0em; margin: 0em 0em}
 nav ul{padding: 10px 3px; list-style-type: none}
+
+footer {clear: both;}
+
+/* ----- Left-Sided Nav Menu -----*/
+-moz- nav {float:left; width: 175px; box-sizing: border-box;}
+nav{float:left; width: 175px; box-sizing: border-box;}
+
+-moz- #content {float: left; width: 593px; box-sizing: border-box;}
+#content {float: left; width: 593px; box-sizing: border-box;}
 
