@@ -33,10 +33,40 @@ footer {clear: both;}
 #sidebar {float: left; width: 160px; box-sizing: border-box}
 
 
-/* ----- Three Column Fixed Layout  -----*/
+/* ----- Three Column Fluid Layout  -----*/
 -moz- nav {float:left; width: 175px; box-sizing: border-box;}
 nav{float:left; width: 175px; box-sizing: border-box;}
 
 -moz- #content {float: left; width: 593px; box-sizing: border-box;}
 #content {float: left; width: 625px; box-sizing: border-box;}
 
+#pagewrapper {width: 100%;}
+nav {width: 21.875%;}
+#content{78.125%}
+
+#fluid-columns{max-width:800px}
+
+
+
+/* ----- One Column Mobile Layout ----- */
+#fluid-columns, nav, #content, #sidebar {width 100%}
+
+@media all and (min-width:525px){
+  /* ----- Two Column Fluid Layout  -----*/
+-moz- nav {float:left; width: 175px; box-sizing: border-box;}
+nav{float:left; width: 175px; box-sizing: border-box;}
+
+-moz- #content {float: left; width: 593px; box-sizing: border-box;}
+#content {float: left; width: 625px; box-sizing: border-box;}
+
+#pagewrapper {width: 100%;}
+nav {width: 21.875%;}
+#content{78.125%}
+
+
+}
+
+@media all and (min-width:960px){
+  #page-wrapper{width: 960px;}
+  #fluid-columns{width: 800px;}
+}
